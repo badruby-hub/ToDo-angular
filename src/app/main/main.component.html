@@ -1,0 +1,8 @@
+<div class="block">
+<div class="form-add">
+  <form-add (out)="addTask($event)"/>
+  <button (click)="deleteCheckedTasks()">Удалить отмеченные</button>
+</div>
+
+ <todo-items [items]="arr" (remove)="deletTask($event)" class="main"/>
+</div>
