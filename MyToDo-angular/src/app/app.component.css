@@ -1,0 +1,30 @@
+.angular-logo{
+   width: 200px;
+}
+
+.main{
+    display: flex;
+
+     .content{
+        margin-right: auto;
+     }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        gap: 1em;
+        width: 500px;
+        li{
+            list-style:none;
+            font-size: x-large;
+            
+            a{
+                text-decoration: none;
+                color: rgb(168, 62, 229);
+            }
+        }
+    }
+}
+
+.active {
+    border: 1px solid gray;
+}
